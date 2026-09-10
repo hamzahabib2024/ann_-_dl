@@ -11,20 +11,17 @@ that neural networks are built from.
 | `Lab 02.pdf` | The lab manual: concepts, solved activities, and the graded tasks. |
 | `activities_ANN_lab_02.ipynb` | The 9 solved activities from the manual (done in class). |
 | `tasks_ANN_lab_02.ipynb` | **The graded work** — Lab Tasks 1, 2 and 3, all cells executed with outputs. |
-| `matrix_lab.py` | Lab Task 1 as the standalone script the manual asks to submit. |
-| `matrix_operations_lab.py` | Lab Task 2 as the standalone script the manual asks to submit. |
-| `data_analysis_lab.py` | Lab Task 3 as the standalone script the manual asks to submit. |
 
-The manual asks for each task to be submitted as a `.py` script, so the three
-scripts are provided as well as the notebook. The notebook and the scripts
-contain the same code — the notebook is the readable version with outputs
-already stored, the scripts are the submission format.
+The manual asks for each task to be submitted as a `.py` script
+(`matrix_lab.py`, `matrix_operations_lab.py`, `data_analysis_lab.py`). This
+repository keeps every lab in notebook form instead, so the three tasks are the
+three sections of `tasks_ANN_lab_02.ipynb`. Any section can be exported to the
+script the manual names with **File → Download as → Python (.py)**.
 
 ## How to run
 
 Open `tasks_ANN_lab_02.ipynb` in Jupyter, VS Code, or Google Colab and run the
-cells from top to bottom (`Run All`). The scripts run with
-`python matrix_lab.py` and so on.
+cells from top to bottom (`Run All`).
 
 Requirements: `numpy` for all three tasks and `matplotlib` for Task 3 only.
 
